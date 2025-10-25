@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js demo app for CI/CD.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "prom-client": "^14.0.1",
+    "winston": "^3.3.3",
+    "jaeger-client": "^3.18.1",
+    "opentracing": "^0.14.5"
+  }
+}
